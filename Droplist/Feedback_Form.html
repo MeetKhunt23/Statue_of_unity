@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FeedBack - Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin-top: 20px;
+            background: #eee;
+        }
+
+        .gradient-brand-color {
+            background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+            background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+            color: #fff;
+        }
+
+        .contact-info__wrapper {
+            overflow: hidden;
+            border-radius: .625rem .625rem 0 0
+        }
+
+        @media (min-width: 1024px) {
+            .contact-info__wrapper {
+                border-radius: 0 .625rem .625rem 0;
+                padding: 5rem !important
+            }
+        }
+
+        .contact-info__list span.position-absolute {
+            left: 0
+        }
+
+        .z-index-101 {
+            z-index: 101;
+        }
+
+        .list-style--none {
+            list-style: none;
+        }
+
+        .contact__wrapper {
+            background-color: #fff;
+            border-radius: 0 0 .625rem .625rem
+        }
+
+        @media (min-width: 1024px) {
+            .contact__wrapper {
+                border-radius: .625rem 0 .625rem .625rem
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .contact-form__wrapper {
+                padding: 5rem !important
+            }
+        }
+
+        .shadow-lg,
+        .shadow-lg--on-hover:hover {
+            box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
+        }
+        nav {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(252, 250, 250, 0.815);
+        /* background-image: url(../imgs/images\ \(3\).jfif); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+      }
+      .Hombtn {
+        width: 100px;
+        height: 60px;
+        font-weight: 300;
+        font-size: 20px;
+        border-top: 5px solid rgba(45, 11, 238, 0.603);
+        border-bottom: 5px solid rgba(45, 11, 238, 0.603);
+        border-radius: 0px;
+        position: absolute;
+        right: 120px;
+        top: 15px;
+        background-color: rgba(255, 255, 255, 0.945);
+        cursor: pointer;
+      }
+
+      .Hombtn:hover {
+        scale: 1.2;
+        transition: 0.5s;
+      }
+
+      nav h1 {
+        font-size: 35px;
+        padding-top: 20px;
+        margin-left: 30px;
+        color: rgb(14, 13, 13);
+      }
+
+      footer {
+        background-color: black;
+        height: 90px;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 25 px;
+        position: absolute;
+        bottom: -300px;
+        width: 100%;
+      }
+
+      .main{
+        display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 920px;
+  width: 100%;
+  position: relative;
+  background-color: rgba(249, 255, 255, 0.712);
+  background-image: url(../imgs/images\ \(1\).jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.container{
+    position: absolute;
+    top: 135px;
+    right: 80px;
+}
+
+@media only screen and (max-width: 480px){
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(252, 250, 250, 0.815);
+        /* background-image: url(../imgs/images\ \(3\).jfif); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+      }
+      .Hombtn {
+        width: 70px;
+        height: 45px;
+        font-weight: 600;
+        font-size: 16px;
+        border-top: 5px solid rgba(45, 11, 238, 0.603);
+        border-bottom: 5px solid rgba(45, 11, 238, 0.603);
+        border-radius: 0px;
+        position: absolute;
+        right: 20px;
+        top: 22px;
+        background-color: rgba(255, 255, 255, 0.945);
+        cursor: pointer;
+      }
+      nav h1 {
+        font-size: 35px;
+        padding-top: 30px;
+        margin-left: 10px;
+        color: rgb(14, 13, 13);
+      }
+      img {
+        width: 80%;
+        margin-top: 90px;
+        height: 800px;
+        margin-left: 40px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: grey;
+        position: relative;
+        bottom: 80px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 16px;
+        background-image: url(../imgs/images\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        height: 1120px;
+      }
+      footer {
+        background-color: black;
+        height: 60px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25 px;
+        position: absolute;
+        bottom: -720px;
+      }
+.container{
+    width: 90%;
+    position: absolute;
+    left:20px   ;
+}
+    }
+    </style>
+</head>
+
+<body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <div class="main">
+        <nav>
+            <h1>FeedBack Form</h1>
+            <div>
+              <a href="../index.html"><button class="Hombtn">Home</button></a>
+            </div>
+          </nav>
+    <div class="container">
+        <div class="contact__wrapper shadow-lg mt-n9">
+            <div class="row no-gutters">
+                <div class="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
+                    <h3 class="color--white mb-5">Get in Touch</h3>
+                    <ul class="contact-info__list list-style--none position-relative z-index-101">
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-envelope"></i></span> <span
+                                 class="__cf_email__ text-light"
+                                data-cfemail="8ffcfaffffe0fdfbcfede0e0fbebeaf6a1ece0e2">contact@google.com</span>
+                        </li>
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-phone"></i></span> (021)-241454-545
+                        </li>
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span> 150 feet Road,Rajkot-360007
+                            <div class="mt-3">
+                                <a href="https://www.google.com/maps" target="_blank"
+                                    class="text-link link--right-icon text-white">Get directions <i
+                                        class="link__icon fa fa-directions"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <figure class="figure position-absolute m-0 opacity-06 z-index-100" style="bottom:0; right: 10px">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444px"
+                            height="626px">
+                            <defs>
+                                <linearGradient id="PSgrad_1" x1="0%" x2="81.915%" y1="57.358%" y2="0%">
+                                    <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"></stop>
+                                    <stop offset="100%" stop-color="rgb(0,54,207)" stop-opacity="0"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path fill-rule="evenodd" opacity="0.302" fill="rgb(72, 155, 248)"
+                                d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z">
+                            </path>
+                            <path fill="url(#PSgrad_1)"
+                                d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z">
+                            </path>
+                        </svg>
+                    </figure>
+                </div>
+                <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
+                    <div class="mb-lg-5">
+                        <h3>Give Your FeedBack</h3>
+                    </div>
+                    <form action="#" class="contact-form form-validate" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="firstName">Your Name</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName"
+                                        placeholder="Enter Your Name">
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="contact@google.com">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone"
+                                        placeholder="(021)-454-545">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="message">How can we help?</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4"
+                                        placeholder="Hi there, I would like to....."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</div>
+<footer>
+    Copyright @ 2023 Statue Of Unity. | Last Updated on 12-3-2023
+  </footer> 
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>

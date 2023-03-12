@@ -1,0 +1,364 @@
+@media only screen and (max-width: 480px) {
+
+    .main-container {
+        margin-top: 0px;
+        position: relative;
+      }
+
+      .sec-1 {
+        height: 560vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+      }
+
+      .nav {
+        width: 80%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 33px;
+        font-weight: 500;
+      }
+
+      .nav div {
+    display: none;
+      }
+
+      .openham{
+        display: flex;
+        font-size: 80px;
+        position: relative;
+        right: 20px;
+        top: 20px;
+      }
+
+      .logo img {
+        width: 120px;
+position: relative;
+top: 17px;
+left: 20px;       
+      }
+
+      .heder {
+        /* display: flex; */
+        margin-left: 0px;
+        width: 100%;
+        position: relative;
+        top: -60px;
+        /* flex-direction: column; */
+        /* line-height: 20px; */
+        align-items: center;
+
+      }
+      
+      .heder h1 {
+       background-color: rgba(255, 255, 255, 0.623);
+       width: 44%;
+       /* padding: 5px 10px; */
+       /* padding-top: 5px; */
+       /* margin-left: -2px; */
+       font-size: 12px;
+       text-align: center;
+       margin-left:25px;
+       font-size: 14px;
+       line-height: 20px;
+      }
+      
+      .heder h3 {
+        display:none;
+        /* background-color: rgba(255, 255, 255, 0.521); */
+      }
+
+      .sec-1 main {
+        /* width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        margin-top: -40px;
+      }
+      
+      .card {
+        text-align:center;
+        width: 60%;
+        margin-left: 1.2%;
+        border: 2px solid rgb(19, 14, 14);
+        padding: 10px 0px;
+        padding-left: 5px;
+        background-color: rgba(255, 255, 255, 0.39);
+        border-radius: 10px;
+        box-shadow: 5px 2px 12px grey;
+        margin-top: 10px;
+      }
+
+      .card:hover {
+        scale: 1.2;
+        transition: 0.5s;
+      }
+
+      .card > img {
+        width:95%;
+        margin-left: 5px;
+      }
+
+      .sec-2 {
+        height: 445vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        z-index: 1;
+        margin-top: 5px;
+      }
+      
+      .sec-2 h2{
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.425);
+        width: 60%;
+        color: wheat;
+        position: absolute;
+        right: 90px;
+        top: 20px;
+      }
+
+      .sec1-part2 {
+        width: 85%;
+        position: absolute;
+        right: 30px;
+        top: 65px;
+        height: 280px;
+        background-color: rgba(253, 248, 248, 0.527);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 10px;
+        border-radius: 10px;
+        z-index: 0;
+      }
+
+      .sec1-part2 h1 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+
+      .sec1-part3 {
+        width: 85%;
+        position: absolute;
+        right: 30px;
+        top: 370px;
+        height: 280px;
+        background-color: rgba(253, 248, 248, 0.527);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 10px;
+        border-radius: 10px;
+        z-index: 2;
+      }
+
+      .sec1-part3 h1 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      
+      .sec1-part4 {
+        width: 85%;
+        position: absolute;
+        right: 30px;
+        top: 680px;
+        height: 280px;
+        background-color: rgba(253, 248, 248, 0.527);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        z-index: 2;
+      }
+
+      .sec1-part4 h1 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+
+      .sec1-part2 video {
+        width: 90%;
+      }
+      .sec1-part3 video {
+        width: 90%;
+      }
+      .sec1-part4 video {
+        width: 90%;
+      }
+
+      .sec1-part5 {
+        width: 85%;
+        margin-left: 1%;
+        position: absolute;
+        left: 35px;
+        top: 980px;
+        background-color: rgba(250, 250, 250, 0.678);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 10px;
+        border-radius: 10px;
+        line-height: 38px;
+        font-size: 14px;
+        font-weight: 500;
+        z-index: 2;
+        /* font-family: Arial, Helvetica, sans-serif; */
+      }
+     
+      .placestovisit h1 {
+        /* margin: 10px 10px; */
+        padding-top: 10px;
+        /* text-decoration: underline; */
+        margin-top: 60px;
+        font-size: 18px;
+      }
+
+      .placestovisit2 h1 {
+        /* margin: 10px 10px; */
+        padding-top: 10px;
+        /* text-decoration: underline; */
+        margin-top: 60px;
+        font-size: 18px;
+      }
+      .placestovisit h3{
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.425);
+        width: 60%;
+        position: absolute;
+        /* right: 60px; */
+        top: 25px;
+        color: white;
+      } 
+      .placestovisit p {
+        width: 85%;
+        font-size: 16px;
+        text-align: justify;
+        padding: 20px 20px;
+        font-weight: 500;
+        margin-top: 10px;
+      }
+      .placestovisit2 p {
+        width: 85%;
+        font-size: 16px;
+        text-align: justify;
+        padding: 20px 20px;
+        font-weight: 500;
+        margin-top: 10px;
+      }
+      
+      .placestovisit img {
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .cac {
+        width: 80%;
+        z-index: 2;
+      }
+
+      .placestovisit2 {
+        width: 100%;
+        background-color: rgba(253, 248, 248, 0.527);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        top: -30px;
+      }
+
+      .sec-4 {
+        /* background-image: url(./imgs/a.png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        margin-top: 20px;
+      }
+
+      .testiminildiv h1{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 10px;
+        background-color: rgba(0, 0, 0, 0.425);
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -50px;
+    
+        /* right: 60px; */
+    }
+    .testimonil {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 45px;
+    }
+
+    .testiminildiv h1{
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 10px;
+      background-color: rgba(0, 0, 0, 0.425);
+      width: 80%;
+      margin-left: 10%;
+  
+      /* right: 60px; */
+  }
+  
+  .testimonil img {
+    width: 80%;
+    margin-left: 10%;
+    height: 1200px;
+    cursor: pointer;
+    margin-top: -50px;
+  }
+  
+  .testimonil div {
+    width: 80%;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 15px;
+    font-weight: 500;
+  }
+
+  footer{
+    background-color: black;
+    position: relative;
+    top: 1850px;
+    height: 100px;
+    color: white;
+text-align: center;
+padding-top: 40px;
+font-size: 15   px;
+}
+
+.card h3 {
+  font-size: 16px;
+  padding-top: 20px;
+}
+   
+    
+  
+}

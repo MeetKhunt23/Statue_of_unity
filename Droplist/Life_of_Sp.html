@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <style>
+                * {
+        margin: 0px 0px;
+      }
+      nav {
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        background-color: rgba(241, 237, 237, 0.911);
+      }
+      .Hombtn {
+        width: 100px;
+        height: 60px;
+        font-weight: 300;
+        font-size: 20px;
+        border-top: 5px solid rgba(45, 11, 238, 0.603);
+        border-bottom: 5px solid rgba(45, 11, 238, 0.603);
+        border-radius: 0px;
+        position: absolute;
+        right: 120px;
+        top: 20px;
+        background-color: rgba(255, 255, 255, 0.945);
+        cursor: pointer;
+      }
+
+      .Hombtn:hover {
+        scale: 1.2;
+        transition: 0.5s;
+      }
+
+      nav h1 {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+        color: rgb(0, 0, 0);
+      }
+
+      .main {
+        display: flex;
+        background-image: url(../imgs/images\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        align-items: center;
+        line-height: 30px;
+      }
+
+      footer {
+        background-color: black;
+
+        height: 60px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+      }
+
+      @media only screen and (max-width: 480px){
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(252, 250, 250, 0.815);
+        /* background-image: url(../imgs/images\ \(3\).jfif); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+      }
+      .Hombtn {
+        width: 70px;
+        height: 45px;
+        font-weight: 600;
+        font-size: 16px;
+        border-top: 5px solid rgba(45, 11, 238, 0.603);
+        border-bottom: 5px solid rgba(45, 11, 238, 0.603);
+        border-radius: 0px;
+        position: absolute;
+        right: 20px;
+        top: 23px;
+        background-color: rgba(255, 255, 255, 0.945);
+        cursor: pointer;
+      }
+      footer {
+        background-color: black;
+        height: 90px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25 px;
+        position: absolute;
+        bottom: -50px;
+      }
+    }
+        </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+          <h1>Life Of Sardar Patel</h1>
+          <div>
+            <a href="../index.html"><button class="Hombtn">Home</button></a>
+          </div>
+        </nav>
+        <div class="main">
+          
+        </div>
+      </div>
+      <footer>
+        Copyright @ 2023 Statue Of Unity. | Last Updated on 12-3-2023
+      </footer>
+</body>
+</html>
